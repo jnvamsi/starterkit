@@ -12,6 +12,8 @@ import Splash from '../../screens/splashscreen';
 import Spla from '../../screens/test';
 import Login3 from '../../screens/login3';
 import Login4 from '../../screens/login4';
+import Crab from '../../screens/crab';
+import Apps from '../../screens/drop';
 export type RootStackParamList = {
   Login: undefined;
   Home: undefined;
@@ -21,6 +23,8 @@ export type RootStackParamList = {
   Screen1:undefined;
   Login33:undefined;
   Login44:undefined;
+  Crabs:undefined;
+  Drop:undefined;
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -62,7 +66,9 @@ const RootNavigationStack = () => {
       {/* <Stack.Screen name="Task" component={Task1} /> */}
        {/* <Stack.Screen name="Screen1" component={Splash} />  */}
        {/* <Stack.Screen name="Login33" component={Login3} />  */}
-      <Stack.Screen name="Login44" component={Login4} /> 
+      {/* <Stack.Screen name="Login44" component={Login4} />  */}
+      <Stack.Screen name="Crabs" component={Crab} /> 
+      {/* <Stack.Screen name="Drop" component={Apps} />  */}
     </Stack.Navigator>
     // )
   );

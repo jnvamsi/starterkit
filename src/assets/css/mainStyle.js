@@ -186,7 +186,7 @@ const commonStyle = StyleSheet.create({
 
 
       to2:
-      {height:hp(7.99),width:wp(84),backgroundColor:'#FFFFFF',borderRadius:wp(2),marginTop:hp(3.5)},
+      {height:hp(7.99),width:wp(84),backgroundColor:'#FFFFFF',borderRadius:wp(2),marginTop:hp(3.5),elevation:0.5},
 
       ti1:
         {textAlign:'center',fontWeight:'600',fontSize:hp(2.1)},
@@ -230,6 +230,69 @@ const commonStyle = StyleSheet.create({
 
     bd80:{
       borderRadius:wp(45)
+    },
+
+    crabtext:{
+      fontSize:hp(3),
+      fontWeight:'bold',
+      color:'black',
+    },
+    padding1:{
+      paddingTop:hp(3)
+    },
+    reate:{
+      height:hp(21),
+      width:wp(84),
+      backgroundColor:'#FFFFFF',
+      marginTop:hp(3.5),
+      borderRadius:wp(2),
+      elevation:0.5
+    },
+    crabtext2:{
+      textAlign:'center',
+      marginTop:hp(2.3)
+    },
+    style1:
+    {flex:1,
+    backgroundColor:"#0276FF"},
+
+    style2:{flex:0.16,
+    backgroundColor:"#0276FF"},
+
+    style3:
+    {textAlign:'center',
+    marginTop:hp(2.2),
+    fontSize:hp(4),
+    color:'#FFFFFF'},
+
+    style4:
+    {flex:1.5,
+    backgroundColor:'#F3F8FF',
+    borderTopLeftRadius:wp(9),
+    borderTopRightRadius:wp(9),
+    flexDirection:'column',
+    alignItems:'center'},
+
+    style5:
+    {alignContent:'center',
+    alignItems:'center'},
+
+    style6:
+    {height:hp(1),
+    width:wp(84),
+    marginBottom:hp(4),
+    marginTop:hp(1.8),
+    elevation:0.5,
+    borderColor:'white'},
+
+    textstyles:{
+      fontWeight:'bold'
+    },
+
+    textstyles1:
+    {
+      textAlign:'center',
+      fontSize: hp(2.3)
     }
 
 });
